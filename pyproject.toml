@@ -19,4 +19,4 @@ license = "MIT"
 license-files = ["LICEN[CS]E*"]
 dependencies = ["requests"]
 [project.urls]
-Homepage = "https://github.com/pypa/sampleproject"
+Homepage = "https://github.com/az299best/open-weather"
