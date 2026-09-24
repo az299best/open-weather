@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools >= 61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "open-weather-API-1153327"
+version = "0.0.1"
+authors = [
+  { name="az299", email="kiselev9905@gmail.com" },
+]
+description = "пакет для получения погоды с open-weather"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+dependencies = ["requests"]
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
