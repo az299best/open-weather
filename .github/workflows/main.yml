@@ -24,4 +24,4 @@ jobs:
         WEATHER_API_KEY: ${secrets.OPEN_WEATHER_API_KEY}
       run: |
         pip install pytest
-        python test.py
+        pytest
